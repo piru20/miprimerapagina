@@ -1,0 +1,144 @@
+body {
+    background-color:aqua;
+    margin: 0;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(24, 24, 141);
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(224, 131, 77);
+}
+
+#myForm {
+    display: flex;
+}
+
+button {
+    background-color: rgb(182, 74, 74);
+}
+
+.container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: black;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.brand {
+    display: flex;
+    align-items: center;
+}
+li>a {
+    padding: 8px 24px;
+}
+li {
+    list-style: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .column {
+        flex: 100%;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .button-menu-toggle {
+        display: block;
+        background-color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 0 24px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .nav-links.nav-links-responsive {
+        position: absolute;
+        display: flex;
+        background-color: rgba(20, 20, 20.0, 0.95);
+        width: 100%;
+        height: 100%;
+        top: 70px;
+        left: 0;
+        flex-direction: column;
+        padding-top: 200px;
+        align-items: center;
+        gap: 70px;
+        font-size: 40px;
+    }
+
+    .about-imagenes {
+        flex-direction: column;
+    }
+}
+
+.imagenes {
+    width: 190px;
+    border-radius: 15%;
+}
+
+.about-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 60px;  
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+video {
+    display: flex;
+    margin: auto;
+    max-width: 90%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    min-height: 100px;
+    color: aliceblue;
+}
+
+
+
