@@ -72,8 +72,9 @@ a {
 .industrias {
     display: flex;
     align-items: center;
-    padding: 8px 24px 0;
+    padding: 8px 0 0;
     justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .button-menu-toggle {
