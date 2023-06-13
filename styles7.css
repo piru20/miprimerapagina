@@ -22,6 +22,15 @@ h1 {
     background-color: rgb(224, 131, 77);
 }
 
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+.imagen-industria {
+    display: flex;
+    justify-content: space-around;
+}
+
 #myForm {
     display: flex;
 }
@@ -58,6 +67,13 @@ li {
 a {
     color: white;
     text-decoration: none;
+}
+
+.industrias {
+    display: flex;
+    align-items: center;
+    padding: 8px 24px 0;
+    justify-content: space-around;
 }
 
 .button-menu-toggle {
